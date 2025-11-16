@@ -9,7 +9,7 @@ def print_matrix(matrix, title=""):
 # 관계 행렬 입력
 def get_matrix():
     matrix = []
-    print(f"각 행의 숫자 5개를 공백으로 구분하여 입력하세요 (예: 1 0 1 0 0).")
+    print("각 행의 숫자 5개를 공백으로 구분하여 입력하세요 (예: 1 0 1 0 0).")
     
     for i in range(N):
         while True:
@@ -179,4 +179,5 @@ def main():
 
 # 프로그램 시작
 if __name__ == "__main__":
+
     main()
