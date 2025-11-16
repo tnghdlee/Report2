@@ -130,7 +130,7 @@ def main():
     print(f"3. 추이 관계 (k-i-j 방식): {'O' if t else 'X'}")
     print(f"4. 추이 관계 (R² ⊆ R 검증): {'O' if t2 else 'X'}")
 
-    is_equivalence = r and s and t 
+    is_equivalence = r and s and t and t2
 
     if is_equivalence:
         print("\n>> 결과: 입력된 관계는 동치 관계입니다.")
@@ -181,3 +181,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
